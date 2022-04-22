@@ -4,7 +4,7 @@ body{
     margin: 0;
     font-family: 'Bebas Neue', cursive;
 }
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +44,10 @@ img.logo {
     /* align-items: flex-end; */
     padding-right: 65px;
 }
+.topsection
+{
+    background-image: url(/img/alpha_website_large.jpg);
+}
 
 
 
@@ -57,13 +61,12 @@ img.logo {
         width: 100px;
         /* padding: 36px; */
         padding-left: 25px;
-        padding-top: 35px;
+        padding-top: 16px;
         /* padding: 27px; */
     }
     .topbuttons {
         padding-right: 17px;
-        margin-top: 33px;
-        
+        margin-top: 23px;
     }
     .langage {
         border: 1px solid black;
