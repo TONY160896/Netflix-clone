@@ -1,7 +1,13 @@
+
+
 body{
     margin: 0;
+    font-family: 'Bebas Neue', cursive;
 }
 h1{
     color: red;
     font-size: 45px;
+    letter-spacing: 10px;
+    padding: 10px;
+
 }
