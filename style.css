@@ -1,8 +1,11 @@
-
+:root{
+   
+}
 
 body{
     margin: 0;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    
 }
 .header {
     display: flex;
@@ -24,8 +27,9 @@ img.logo {
     font-size: 13px;
     /* padding: 10px; */
     margin-right: 22px;
-    background-color: #0000002e;
+    background-color: #00000063;
     border-radius: 4px;
+    color: white;
 }
 
 .signin {
@@ -44,12 +48,80 @@ img.logo {
     /* align-items: flex-end; */
     padding-right: 65px;
 }
-.topsection
-{
+.topsection {
     background-image: url(/img/alpha_website_large.jpg);
+    background-size: cover;
+    position: relative;
+    /* background-color: black; */
+    /* background-blend-mode: color-burn; */
 }
 
+.sectiontextone {
+    color: white;
+    text-align: center;
+    font-size: 39px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-top: 108px;
+}
+.sectiontexttwo {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 100;
+    padding-bottom: 5px;
+    margin-top: -14px;
+    letter-spacing: 1px;
+}
+.sectiontextthree {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: -5px;
+}
+.formdiv {
+    width: 564px;
+    height: 44px;
+    border: 1px solid white;
+    margin: auto;
+}
 
+a.signlink {
+    color: white;
+    text-decoration: none;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+}
+input[type="email"] {
+    width: 442px;
+    height: 45px;
+    min-height: 34px;
+    /* margin-left: -89px; */
+    font-size: 18px;
+    text-align: start;
+    letter-spacing: 1px;
+    /* padding: 0px; */
+}
+button.getstarted {
+    background-color: red;
+    border: 1px solid;
+    /* width: auto; */
+    /* height: fit-content; */
+    height: 52px;
+    width: 149px;
+    /* height: 100%; */
+}
+a.getstartedlink {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
 
 @media screen and (max-width: 900px) 
 {
