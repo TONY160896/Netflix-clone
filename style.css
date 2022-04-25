@@ -1,10 +1,11 @@
 :root{
-   
+    color: white;
 }
 
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    
     
 }
 .header {
@@ -54,6 +55,7 @@ img.logo {
     position: relative;
     /* background-color: black; */
     /* background-blend-mode: color-burn; */
+    border-bottom: 8px solid #222;
 }
 
 .sectiontextone {
@@ -122,8 +124,79 @@ a.getstartedlink {
     text-decoration: none;
     font-size: 20px;
 }
+.sectiontwo {
+    border-bottom: 8px solid #222;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img.tvimage {
+    max-width: 480px;
+}
+.sectiontwoimg {
+    width: max-content;
+    padding-bottom: 45px;
+    margin-top: 18px;
+    /* margin-left: -23px; */
+    margin-right: 55px;
+}
+h1.twotext {
+    font-size: 47px;
+    padding-left: 49px;
+}
+h4.watch {
+    font-size: 28px;
+    font-weight: 100;
+    padding-left: 49px;
+    margin-top: -12px;
+}
+.sectionthreediv {
+    /* padding: 23px; */
+    padding-bottom: 76px;
+    position: relative;
+    margin-left: -135px;
+}
+img.mobilepic {
+    max-width: 447px;
+}
 
-@media screen and (max-width: 900px) 
+.sectionthree
+{
+    border-bottom: 8px solid #222;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.thirdtextdiv {
+    max-width: 401px;
+    
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    position: relative;
+    /* border: 1px solid; */
+}
+.threetext {
+    font-size: 50px;
+    padding-left: -12px;
+    margin-left: -34px;
+    
+    
+}
+p.threepara {
+    margin-left: -35px;
+    font-size: 23px;
+    margin-top: -21px;
+}
+
+
+
+
+
+
+@media screen and (max-width:900px) 
 {
     .topbuttons {
         display: flex;
@@ -155,5 +228,50 @@ a.getstartedlink {
         /* padding: 10px; */
         color: white;
     }
-
+    .search {
+        display: inline-block;
+    }
+    input[type="email"] {
+        /* width: 246px; */
+        padding-left: 53px;
+        margin-left: 29px;
+        max-width: 280px;
+    }
+    button.getstarted {
+        margin-left: 130px;
+        margin-top: 17px;
+    }
+    .sectiontwo{
+        display: inline-block
+    }
+    .sectiontwoimg {
+        
+        margin: auto;
+    }
+    h4.watch {
+        text-align: center;
+        margin-left: -7px;
+        padding-left: 2px;
+    }
+    h1.twotext {
+        font-size: 47px;
+        /* padding-left: 58px; */
+        text-align: center;
+    }
+    .sectionthree {
+        display: inline-block;
+        width: -webkit-fill-available;
+    }
+    .sectionthreediv {
+        margin: auto;
+        margin-left: 39px;
+    }
+    .thirdtextdiv {
+        margin: auto;
+        text-align: center;
+    }
+    img.mobilepic {
+        max-width: 440px;
+    }
+   
 }
