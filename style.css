@@ -56,6 +56,7 @@ img.logo {
     /* background-color: black; */
     /* background-blend-mode: color-burn; */
     border-bottom: 8px solid #222;
+    padding-bottom: 40px;
 }
 
 .sectiontextone {
@@ -169,6 +170,7 @@ img.mobilepic {
     justify-content: space-around;
     align-items: center;
     position: relative;
+    padding-bottom:40px;
 }
 .thirdtextdiv {
     max-width: 401px;
@@ -190,6 +192,21 @@ p.threepara {
     font-size: 23px;
     margin-top: -21px;
 }
+.sectionfour
+{
+    border-bottom: 8px solid #222;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-bottom: 40px;
+}
+.sectionfourimgdiv {
+    margin-top: 25px;
+    
+}
+
 
 
 
@@ -260,7 +277,7 @@ p.threepara {
     }
     .sectionthree {
         display: inline-block;
-        width: -webkit-fill-available;
+        
     }
     .sectionthreediv {
         margin: auto;
@@ -273,5 +290,18 @@ p.threepara {
     img.mobilepic {
         max-width: 440px;
     }
-   
+    .sectionfour{
+        display: inline-block
+    }
+    .sectionfourimgdiv
+    {
+        
+    padding-bottom: 45px;
+    
+    
+    }
+    img.tvimage {
+        max-width: 480px;
+        margin-left: 37px;
+    }
 }
