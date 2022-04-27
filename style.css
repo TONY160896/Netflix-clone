@@ -102,9 +102,9 @@ a.signlink {
     padding-bottom: 130px;
 }
 input[type="email"] {
-    width: 442px;
-    height: 45px;
-    min-height: 34px;
+    width: 454px;
+    height: 56px;
+    min-height: 38px;
     /* margin-left: -89px; */
     font-size: 18px;
     text-align: start;
@@ -116,7 +116,7 @@ button.getstarted {
     border: 1px solid;
     /* width: auto; */
     /* height: fit-content; */
-    height: 52px;
+    height: 64px;
     width: 149px;
     /* height: 100%; */
 }
@@ -206,14 +206,113 @@ p.threepara {
     margin-top: 25px;
     
 }
+.sectionfiverchildrendiv
+{
+    margin-top: 25px;
+}
+.sectionfive
+{
+    border-bottom: 8px solid #222;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-bottom: 40px;
+}
+.sectionfivechildrendiv {
+    margin-left: 75px;
+    /* padding-bottom: 21px; */
+    margin-top: 39px;
+}
+.sectionfivedivtext {
+    
+    margin-left: -43px;
+    text-align: inherit;
+}
+.sectionsix
+{
+    border-bottom: 8px solid #222;
+    background-color: #000;
+    
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-bottom: 40px;
+}
+.sectionsix h1 {
+    text-align: center;
+    font-size: 51px;
+    padding-bottom: 14px;
+}
+
+.sectionsixtext {
+    margin: auto;
+    /* font-size: 9px; */
+    padding-top: 30px;
+    line-height: 1;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #303030;
+    color: white;
+    padding: 17px;
+    text-align: left;
+    border: none;
+    width: 825px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 73px;
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 31px;
+}
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\002B';
+    font-size: 32px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+    /* fill: #fff; */
+    margin-top: -3px;
+    font-size: 39px;
+    font-weight: lighter;
+
+}
+.sectiontextbottom {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 74px;
+}
+.searchbottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 52px;
+}
+  
+}
 
 
 
 
 
-
-
-@media screen and (max-width:900px) 
+@media only screen and (min-width: 550px) and (max-width: 949px),
+ only screen and (min-width: 400px) and (max-width: 549px), 
+ only screen and (min-width: 350px) and (max-width: 399px),
+  only screen and (max-width: 349px)
 {
     .topbuttons {
         display: flex;
@@ -304,4 +403,14 @@ p.threepara {
         max-width: 480px;
         margin-left: 37px;
     }
+    
+    .sectionfive
+    {
+        display: inline-block
+    }
+    .sectionsix
+    {
+        display:inline-block
+    }
+
 }
