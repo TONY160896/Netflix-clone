@@ -22,7 +22,7 @@ img.logo {
     /* padding: 27px; */
 }
 .langage {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 69px;
     height: 26px;
     font-size: 13px;
@@ -31,6 +31,7 @@ img.logo {
     background-color: #00000063;
     border-radius: 4px;
     color: white;
+    border: 1px solid white;
 }
 
 .signin {
@@ -57,20 +58,21 @@ img.logo {
     /* background-blend-mode: color-burn; */
     border-bottom: 8px solid #222;
     padding-bottom: 40px;
+    max-width: inherit;
 }
 
 .sectiontextone {
     color: white;
     text-align: center;
-    font-size: 39px;
+    font-size: 50px;
     letter-spacing: 2px;
     font-weight: 700;
-    padding-top: 108px;
+    padding-top: 99px;
 }
 .sectiontexttwo {
     color: white;
     text-align: center;
-    font-size: 19px;
+    font-size: 25px;
     font-weight: 100;
     padding-bottom: 5px;
     margin-top: -14px;
@@ -131,6 +133,7 @@ a.getstartedlink {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: inherit;
 }
 img.tvimage {
     max-width: 480px;
@@ -143,8 +146,8 @@ img.tvimage {
     margin-right: 55px;
 }
 h1.twotext {
-    font-size: 47px;
-    padding-left: 49px;
+    font-size: 45px;
+    padding-left: 53px;
 }
 h4.watch {
     font-size: 28px;
@@ -154,12 +157,13 @@ h4.watch {
 }
 .sectionthreediv {
     /* padding: 23px; */
-    padding-bottom: 76px;
-    position: relative;
+    padding-bottom: 24px;
+    /* position: relative; */
     margin-left: -135px;
 }
 img.mobilepic {
-    max-width: 447px;
+    max-width: 483px;
+    margin-left: 61px;
 }
 
 .sectionthree
@@ -171,25 +175,24 @@ img.mobilepic {
     align-items: center;
     position: relative;
     padding-bottom:40px;
+    max-width: inherit;
 }
 .thirdtextdiv {
-    max-width: 401px;
-    
+    max-width: 523px;
     /* display: flex; */
     /* flex-wrap: wrap; */
     position: relative;
     /* border: 1px solid; */
+    margin-top: -40px;
 }
 .threetext {
     font-size: 50px;
     padding-left: -12px;
     margin-left: -34px;
-    
-    
 }
 p.threepara {
     margin-left: -35px;
-    font-size: 23px;
+    font-size: 27px;
     margin-top: -21px;
 }
 .sectionfour
@@ -201,6 +204,7 @@ p.threepara {
     align-items: center;
     position: relative;
     padding-bottom: 40px;
+    max-width: inherit;
 }
 .sectionfourimgdiv {
     margin-top: 25px;
@@ -219,26 +223,38 @@ p.threepara {
     align-items: center;
     position: relative;
     padding-bottom: 40px;
+    max-width: inherit;
 }
 .sectionfivechildrendiv {
-    margin-left: 75px;
+    margin-left: -87px;
     /* padding-bottom: 21px; */
     margin-top: 39px;
 }
 .sectionfivedivtext {
-    
-    margin-left: -43px;
-    text-align: inherit;
+    margin-left: -263px;
+    /* text-align: inherit; */
+    max-width: 547px;
+    text-align: left;
 }
-.sectionsix
-{
+h4.watchchildren {
+    font-size: 24px;
+    font-weight: 100;
+    margin-left: 53px;
+    margin-top: -28px;
+}
+.sectionsix {
     border-bottom: 8px solid #222;
     background-color: #000;
-    
     justify-content: space-around;
     align-items: center;
     position: relative;
     padding-bottom: 40px;
+    /* max-width: inherit; */
+    /* max-width: unset; */
+    /* max-width: 1000px; */
+    /* max-width: -webkit-fill-available; */
+    max-width: inherit;
+ padding-bottom: 40px;
 }
 .sectionsix h1 {
     text-align: center;
@@ -302,17 +318,89 @@ p.threepara {
     align-items: center;
     padding-bottom: 52px;
 }
-  
+.sectionseven {
+    border-bottom: 8px solid #222;
+    background-color: #000;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-bottom: 40px;
+    margin-top: -16px;
+    max-width: inherit;
+}
+.sectionseven div {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    max-width: 859px;
+    margin: auto;
+}
+.sectionseven ul {
+    list-style-type: none;
+    font-size: 14px;
+    opacity: 0.5;
+    line-height: 3;
+}
+.sectionseven p {
+    opacity: 0.5;
+    position: inherit;
+    padding-top: 88px;
+    margin-left: 34px;
+    padding-left: 217px;
+}
+.langagefooter {
+    border: 1px solid white;
+    width: 102px;
+    height: 48px;
+    font-size: 16px;
+    /* padding: 10px; */
+    margin-right: 22px;
+    background-color: #00000063;
+    border-radius: 4px;
+    color: white;
+    margin-top: 22px;
+    margin-bottom: 24px;
+    padding-left: 29px;
+    max-width: inherit;
+}
+a {
+    text-decoration: none;
+    color: white;
+    
+
+}
+.sectionfourdivtext {
+    max-width: 586px;
+    margin-left: 22px;
+}
+.sectiondivtext {
+    max-width: 591px;
+    margin-left: 68px;
+    /* padding-bottom: 23px; */
+}
+.childimage {
+    max-width: 411px;
+    margin-left: 28px;
+}
+.sectiontextthreebottom {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 77px;
+}
+.searchbottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 78px;
 }
 
 
 
-
-
-@media only screen and (min-width: 550px) and (max-width: 949px),
- only screen and (min-width: 400px) and (max-width: 549px), 
- only screen and (min-width: 350px) and (max-width: 399px),
-  only screen and (max-width: 349px)
+@media screen and (max-width:900px)
+ 
 {
     .topbuttons {
         display: flex;
@@ -411,6 +499,30 @@ p.threepara {
     .sectionsix
     {
         display:inline-block
+    }
+    .footer
+    {
+        display:inline-block
+    }
+    .sectionsevendiv
+    {
+        display:inline-block
+    }
+    .sectionseven ul
+    {
+        display:inline-block
+    }
+    .sectionfivechildrendiv {
+        /* padding-bottom: 21px; */
+        margin-top: 39px;
+        margin: auto;
+    }
+    .sectionfivedivtext {
+        /* margin-left: -263px; */
+        /* text-align: inherit; */
+        max-width: 547px;
+        text-align: left;
+        margin: auto;
     }
 
 }
